@@ -38,8 +38,8 @@ $(document).ready(function() {
 		// OwlCarousel N1
 		$("#owl-demo").owlCarousel({
 			autoPlay: 8000,
-			navigation : true, // Show next and prev buttons
 			items : 3,
+			navigation : true,
 			itemsDesktop : [1199,3],
 			itemsDesktopSmall : [979,3]
 		});
