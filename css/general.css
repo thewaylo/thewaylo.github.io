@@ -1,9 +1,7 @@
 /*
-Theme: Flatfy Theme
-Author: Andrea Galanti
-Bootstrap Version 
-Build: 1.0
-http://www.andreagalanti.it
+Theme: Based on Flatfy Theme
+Origin Author: Andrea Galanti
+Modified by: Angik Sarkar
 */
 
 /*General */
@@ -149,6 +147,20 @@ filter: alpha(opacity=95) !important;
 .mybutton_cyano:hover{
 	border: 1px solid #4A90BE;
 	color: #4A90BE !important;
+	background: rgba(204, 204, 204, 0);
+}
+
+.mybutton_sign{
+	border: 1px solid #C0C0C0;
+	/*color: #fff;*/
+	color: black;
+	background-color:#C0C0C0;
+}
+
+.mybutton_sign:hover{
+	border: 1px solid #4A90BE;
+	/*color: #4A90BE !important;*/
+	color: #fff !important;
 	background: rgba(204, 204, 204, 0);
 }
 
@@ -1209,10 +1221,10 @@ color: #ECEBEB;
 	}	
 }
 
-footer {
-	background-color: #f8f8f8;
-	padding: 50px 0;
-}
+/*footer {*/
+/*	background-color: #f8f8f8;*/
+/*	padding: 50px 0;*/
+/*}*/
 
 p.copyright {
 	margin: 15px 0 0;
@@ -1270,4 +1282,178 @@ p.copyright {
 		display: none;
 	}
 
+}
+
+section.contact {
+  text-align: center;
+}
+section.contact h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+section.contact h2 i {
+  color: #dd4b39;
+}
+section.contact ul.list-social {
+  margin-bottom: 0;
+}
+section.contact ul.list-social li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+}
+section.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+section.contact ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+section.contact ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+section.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+
+section.contact ul.list-social li.social-instagram a {
+  background-color: #125688;
+}
+section.contact ul.list-social li.social-instagram a:hover {
+  background-color: #458eff;
+}
+footer {
+  background-color: #222222;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+footer ul {
+  margin-bottom: 0;
+}
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+  text-decoration: none;
+}
+
+/*.bg-primary {*/
+/*  background: #fdcc52;*/
+/*  background: -webkit-linear-gradient(#fdcc52, #fdc539);*/
+/*  background: linear-gradient(#fdcc52, #fdc539);*/
+/*}*/
+
+section {
+  padding: 100px 0;
+}
+
+.list-inline1 {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #fed136;
+}
+::selection {
+  text-shadow: none;
+  background: #fed136;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #fed136;
 }
