@@ -1338,14 +1338,14 @@ footer {
   text-align: center;
 }
 footer p {
-  font-size: 12px;
+  font-size: 18px;
   margin: 0;
 }
 footer ul {
   margin-bottom: 0;
 }
 footer ul li a {
-  font-size: 12px;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.3);
 }
 footer ul li a:hover,
