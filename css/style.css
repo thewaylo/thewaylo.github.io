@@ -1,6 +1,7 @@
 /*
 Theme: Flatfy Theme
-Author: Andrea Galanti
+Original Author: Andrea Galanti
+Modified by: Angik Sarkar
 */
 
 @font-face {
@@ -610,7 +611,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #1abc9c;
+  /*background-color: #1abc9c;*/
+  background-color: #FF7300;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -618,8 +620,10 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #48c9b0;
+  /*background-color: #48c9b0;*/
   border-color: #48c9b0;
+  background-color: rgba(204, 204, 204, 0);
+  /*opacity:0;*/
 }
 .btn-primary:active,
 .btn-primary.active,
