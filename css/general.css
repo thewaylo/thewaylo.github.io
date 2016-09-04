@@ -1,6 +1,6 @@
 /*
 Theme: Based on Flatfy Theme
-Origin Author: Andrea Galanti
+Original Author: Andrea Galanti
 Modified by: Angik Sarkar
 */
 
@@ -12,9 +12,14 @@ body, html {
 	overflow-x:hidden;
 }
 
-::-moz-selection{background:#1abc9c;color:white}
+/*::-moz-selection{background:#1abc9c;color:white}*/
 
-::selection{background:#1abc9c;color:white}
+::-moz-selection{background:#FF7300;color:white}
+
+
+/*::selection{background:#1abc9c;color:white}*/
+
+::selection{background:#FF7300;color:white}
 
 .abcen{position: absolute;bottom: 8%;}
 
@@ -150,17 +155,40 @@ filter: alpha(opacity=95) !important;
 	background: rgba(204, 204, 204, 0);
 }
 
-.mybutton_sign{
-	border: 1px solid #C0C0C0;
+
+.mybutton_demo{
+	border: 4px solid #000;
 	/*color: #fff;*/
 	color: black;
-	background-color:#C0C0C0;
+	/*background-color:#C0C0C0;*/
+	background-color: #E8E8E8;
+}
+
+.mybutton_demo:hover{
+	border: 2px solid #000;
+	/*color: #4A90BE !important;*/
+	color: #000 !important;
+	/*color: #fff !important;*/
+	background: rgba(204, 204, 204, 0);
+}
+
+
+.mybutton_sign{
+	/*border: 4px solid #FF7300;*/
+	border: 1px solid #000;
+	color: #fff;
+	/*color: black;*/
+	/*background-color:#C0C0C0;*/
+	/*background-color: #E8E8E8;*/
+	background-color: #FF7300;
 }
 
 .mybutton_sign:hover{
-	border: 1px solid #4A90BE;
+	/*border: 1px solid #4A90BE;*/
+	border: 2px solid #FF7300;
 	/*color: #4A90BE !important;*/
-	color: #fff !important;
+	color: #000 !important;
+	/*color: #fff !important;*/
 	background: rgba(204, 204, 204, 0);
 }
 
@@ -178,11 +206,13 @@ width: 50px;
 	font-size: 30px;
 	text-decoration: none;
 	list-style-type: none;
-	color: #1abc9c; 
+	/*color: #1abc9c;*/
+	color:#FF7300;
 }
 
 .social > a:hover {
-	color: #1abc9c; 
+	/*color: #1abc9c;*/
+	color:#FF7300;
 }
 
 .box-icon {
@@ -201,12 +231,14 @@ width: 50px;
 }
 
 .box-icon:hover {
-	background-color: #1abc9c;
+	/*background-color: #1abc9c;*/
+	background-color: #FF7300;
 	color: #fff;
 }
 
 .owl-theme .owl-controls .owl-page span {
-background: #1abc9c !important;
+/*background: #1abc9c !important;*/
+background: #FF7300 !important;
 }
 
 /* Nav */
@@ -257,9 +289,15 @@ color: #ECEBEB;
 	height: 100%; /* Full PAge */
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
-	color: #f8f8f8;
+	/*color: #f8f8f8;*/
+	color: #000000;
+	/*color:#1EAFAD;*/
+	/*color:#EE486D;*/
 	/*background: url(../img/intro/intro5.jpg) no-repeat center center;*/
-	background: url(../img/intro/earth-518365_19201.jpg) no-repeat center center;
+	/*background: url(../img/intro/earth-518365_19201.jpg) no-repeat center center;*/
+	background: url(../img/intro/abstract-1303775.jpg) no-repeat center center;
+
+	
 	background-size: cover;
 	text-align: center;
 }
@@ -541,7 +579,8 @@ color: #ECEBEB;
 
 .content-style-form-4 form button:focus,
 .content-style-form-4 form button:hover {
-	background: #1abc9c;
+	/*background: #1abc9c;*/
+	background: #FF7300;
 }
 
 .js .content-style-form-4 p {
@@ -923,7 +962,8 @@ color: #ECEBEB;
 
 .morph-button-inflow-1 .morph-content .morph-clone {
 	color: #FFFFFF;
-	background: #1abc9c;
+	/*background: #1abc9c;*/
+	background: #FF7300;
 }
 
 .morph-button-inflow-2 {
@@ -1093,9 +1133,14 @@ color: #ECEBEB;
 			height: 100%;
 			padding-top: 50px;
 			padding-bottom: 50px;
-			color: #f8f8f8;
-		    background-image: none; 
-		   	background: url(../img/intro/earth-518365_19201.jpg) no-repeat center center;
+			/*color: #f8f8f8;*/
+			/*color: #000000;*/
+		    /*color:#8A6108;*/
+		    color: #000000;
+		    /*background-image: none; */
+		   	/*background: url(../img/intro/earth-518365_19201.jpg) no-repeat center center;*/
+			background: url(../img/intro/abstract-1303775.jpg) no-repeat center center;
+			/*text-shadow: -1px 0 #F0A80C, 0 1px #F0A80C, 1px 0 #F0A80C, 0 -1px #F0A80C;*/
 			/*background-size: cover;*/
 			text-align: center;
 			background-color: #34495e;
