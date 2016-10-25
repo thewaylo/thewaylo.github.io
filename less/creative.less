@@ -51,7 +51,7 @@ p {
 }
 
 .bg-dark {
-    background-color: @gray-darker;
+    background-color: @theme-dark;
     color: white;
 }
 
@@ -75,7 +75,7 @@ aside {
 
 .navbar-default {
     background-color: white;
-    border-color: fade(@gray-darker, 5%);
+    border-color: fade(@theme-dark, 5%);
     .sans-serif-font;
     .transition-all;
     .navbar-header .navbar-brand {
@@ -88,12 +88,6 @@ aside {
             color: darken(@theme-primary, 10%);
         }
     }
-    .navbar-header .navbar-toggle {
-        font-weight: 700;
-        font-size: 12px;
-        color: @gray-darker;
-        text-transform: uppercase;
-    }
     .nav {
         > li {
             > a,
@@ -101,7 +95,7 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: @gray-darker;
+                color: @theme-dark;
                 &:hover {
                     color: @theme-primary;
                 }
@@ -137,7 +131,7 @@ aside {
         }
         &.affix {
             background-color: white;
-            border-color: fade(@gray-darker, 5%);
+            border-color: fade(@theme-dark, 5%);
             .navbar-header .navbar-brand {
                 color: @theme-primary;
                 font-size: 14px;
@@ -148,7 +142,7 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: @gray-darker;
+                color: @theme-dark;
                 &:hover {
                     color: @theme-primary;
                 }
@@ -179,7 +173,6 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
-                font-size: 30px;
             }
             hr {
                 margin: 30px auto;
@@ -197,17 +190,12 @@ header {
         .header-content {
             position: absolute;
             top: 50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
             transform: translateY(-50%);
             padding: 0 50px;
             .header-content-inner {
                 max-width: 1000px;
                 margin-left: auto;
                 margin-right: auto;
-                h1 {
-                    font-size: 50px;
-                }
                 p {
                     font-size: 18px;
                     max-width: 80%;
@@ -278,9 +266,6 @@ header {
             opacity: 1;
         }
     }
-    &:focus {
-        outline: none;
-    }
     @media (min-width: 768px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
@@ -313,7 +298,7 @@ header {
 
 // Button Styles
 .btn-default {
-    .button-variant(@gray-darker;white;white);
+    .button-variant(@theme-dark;white;white);
 }
 
 .btn-primary {
@@ -337,13 +322,13 @@ header {
 ::-moz-selection {
     color: white;
     text-shadow: none;
-    background: @gray-darker;
+    background: @theme-dark;
 }
 
 ::selection {
     color: white;
     text-shadow: none;
-    background: @gray-darker;
+    background: @theme-dark;
 }
 
 img::selection {
@@ -357,5 +342,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: @gray-darker;
+    webkit-tap-highlight-color: @theme-dark;
 }
