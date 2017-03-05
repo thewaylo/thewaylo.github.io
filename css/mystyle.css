@@ -1,0 +1,78 @@
+.btncontainer{
+  
+   
+    margin-top: 1%;
+}
+.btn-facebook {
+    font-family: inherit;
+    padding: 10px;
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+   font-weight: bold;
+	  background: #FFF;
+	  border-radius: 20px;
+	  color: #ef6c00;
+	  border-width: 1px;
+	  border-style: solid;
+    text-align: center;
+
+   
+	}
+
+
+@media screen and (max-width: 736px) {
+  .fh5co-cover .desc .desc2 .headCont{
+  display:block;
+	margin-top: 2px;
+	margin-left:40px;
+	margin-bottom: 110px;
+	margin-right: 5px;
+  }
+  .h_n{
+	  
+	  text-align: center;
+		font-size: 15px;
+	  }
+	
+  }	
+	/* IPAD */
+	@media screen and (min-device-width:736px) and (max-device-width:768px){
+  .fh5co-cover .desc .desc2 .headCont{
+  display:block;
+    margin-top: 170px;
+    margin-left: 0px;
+    margin-bottom: 110px;
+    margin-right: 60px;
+    float: left;
+  }
+  .h_n{
+	  
+	  text-align: center;
+		font-size: 12px;
+	  }
+	
+  }
+	
+ 
+
+.compImg{
+	width: 20%;
+	padding:2px;
+	margin-bottom: 30px;
+}
+.compH{
+    padding: 15px;
+	margin-bottom: -15px;
+}
+
+	.footer-logo{
+		
+		margin-top: -30px;
+
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #ef6c00;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #F78536;
+	  color: #fff;
+	}
