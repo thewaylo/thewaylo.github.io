@@ -954,7 +954,8 @@
 		
 		$('#datestart').datepicker({
 			format:"yyyy-mm-dd",
-			startDate: startdate,
+// 			startDate: startdate,
+			startDate: '+5d',
 			autoclose: true
 			
 		}).val(parsedate(startdate,4));
@@ -963,6 +964,7 @@
 		$('#dateend').datepicker({
 			format:"yyyy-mm-dd",
 			startDate:startdate,
+			startDate: '+6d',
 			autoclose: true
 
 		}).val(parsedate(startdate,4));
