@@ -52,8 +52,36 @@
 	
   }
 	
- 
+ .banner{
+	 background: #c95033;
+	 height: 225px;
+	 display: none;
+ }
+ .mobile-banner{
+	 	 background: #c95033;
+ }
+.banner-image{
 
+float: left;
+
+}
+
+.banner-info{
+	padding:65px;
+	color: white;
+}
+.banner-head h3{
+ color: white;
+}
+.banner-body p{
+	color:white;
+	font-weight: 500;
+}
+.banner-cancel{
+	position:absolute;
+   top:5px;
+   right:10px;
+}
 .compImg{
 	width: 20%;
 	padding:2px;
@@ -63,7 +91,9 @@
     padding: 15px;
 	margin-bottom: -15px;
 }
-
+.email-box{
+	width:500px;
+}
 	.footer-logo{
 		
 		margin-top: -30px;
