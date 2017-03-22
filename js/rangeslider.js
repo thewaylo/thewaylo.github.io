@@ -195,7 +195,7 @@ $element
   });
 
 function updateHandle(el, val) {
-  el.textContent = " " + "$" + val + " ";
+  el.textContent = " " + "$" + val + " /night";
   //Here change will reflect
   var final_val=((val*3)*13)/100;
   $('#amount').text('Save $'+Math.floor(final_val));
