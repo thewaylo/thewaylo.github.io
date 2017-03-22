@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: 'Baloo', cursive;
+  font-family: 'Cabin', sans-serif;
   line-height: 1.6;
   font-size: 16px;
   background: #fff;
@@ -72,7 +72,7 @@ p, ul, ol {
   margin-bottom: 1.5em;
   font-size: 16px;
   color:black;
-  font-family: 'Baloo', cursive;
+  font-family: 'Cabin', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
