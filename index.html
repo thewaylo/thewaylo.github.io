@@ -1092,7 +1092,7 @@
 function getDate(dom_id){
 var mydate=new Date($(dom_id).val());
 //console.log("YEAR: "+mydate.getFullYear());
-return mydate.getFullYear()+"-"+(mydate.getMonth()+1)+"-"+(mydate.getDay()+2);
+return mydate.getFullYear()+"-"+pad(mydate.getMonth()+1)+"-"+pad(mydate.getDay()+2);
 
 }
 		$('#wayloapi').click(function (){
@@ -1106,7 +1106,7 @@ return mydate.getFullYear()+"-"+(mydate.getMonth()+1)+"-"+(mydate.getDay()+2);
 			 var apikey="eeac5f20-535d-48a5-8a5a-ba2d348e2ae7";
 			 var d1=new Date(checkin);
 			 var d2=new Date(checkout);
-		//console.log(checkin+"      "+checkout);
+		console.log(checkin+"      "+checkout);
      if(validateInput(lat)&&validateInput(checkin)&&validateInput(checkout)&&validateInput(adultno)&&validateInput(childno)){
 			if(d1<d2){
 				var dynamic_path="https://m.me/thewaylo?ref=";
