@@ -1229,7 +1229,7 @@
 				var mydate = new Date($(dom_id).val());
 
 				console.log(mydate.getFullYear() + "-" + (mydate.getMonth() + 1) + "-" + (mydate.getDay()));
-				return mydate.getFullYear() + "-" + (mydate.getMonth() + 1) + "-" + (mydate.getDate())
+				return mydate.getFullYear() + "-" + pad(mydate.getMonth() + 1) + "-" + pad(mydate.getDate())
 
 			}
 			$('#wayloapi').click(function () {
