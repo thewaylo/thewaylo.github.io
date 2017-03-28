@@ -1,108 +1,112 @@
-.btncontainer{
-  
-   
-    margin-top: 1%;
+.btncontainer {
+	margin-top: 1%;
 }
+
 .btn-facebook {
-    font-family: inherit;
-    padding: 10px;
-    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
-   font-weight: bold;
-	  background: #FFF;
-	  border-radius: 20px;
-	  color: #ef6c00;
-	  border-width: 1px;
-	  border-style: solid;
-    text-align: center;
-
-   
-	}
-
+	font-family: inherit;
+	padding: 10px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background: #FFF;
+	border-radius: 20px;
+	color: #ef6c00;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+}
 
 @media screen and (max-width: 736px) {
-  .fh5co-cover .desc .desc2 .headCont{
-  display:block;
-	margin-top: 2px;
-	margin-left:40px;
-	margin-bottom: 110px;
-	margin-right: 5px;
-  }
-  .h_n{
-	  
-	  text-align: center;
+	.fh5co-cover .desc .desc2 .headCont {
+		display: block;
+		margin-top: 2px;
+		margin-left: 40px;
+		margin-bottom: 110px;
+		margin-right: 5px;
+	}
+	.h_n {
+		text-align: center;
 		font-size: 15px;
-	  }
-	
-  }	
-	/* IPAD */
-	@media screen and (min-device-width:736px) and (max-device-width:768px){
-  .fh5co-cover .desc .desc2 .headCont{
-  display:block;
-    margin-top: 170px;
-    margin-left: 0px;
-    margin-bottom: 110px;
-    margin-right: 60px;
-    float: left;
-  }
-  .h_n{
-	  
-	  text-align: center;
-		font-size: 12px;
-	  }
-	
-  }
-	
- .banner{
-	 background: #c95033;
-	 height: 225px;
-	 display: none;
- }
- .mobile-banner{
-	 	 background: #c95033;
- }
-.banner-image{
-
-float: left;
-
+	}
 }
 
-.banner-info{
-	padding:65px;
+
+/* IPAD */
+
+@media screen and (min-device-width:736px) and (max-device-width:768px) {
+	.fh5co-cover .desc .desc2 .headCont {
+		display: block;
+		margin-top: 170px;
+		margin-left: 0px;
+		margin-bottom: 110px;
+		margin-right: 60px;
+		float: left;
+	}
+	.h_n {
+		text-align: center;
+		font-size: 12px;
+	}
+}
+
+.banner {
+	background: #c95033;
+	height: 225px;
+	display: none;
+}
+
+.mobile-banner {
+	background: #c95033;
+}
+
+.banner-image {
+	float: left;
+}
+
+.banner-info {
+	padding: 65px;
 	color: white;
 }
-.banner-head h3{
- color: white;
+
+.banner-head h3 {
+	color: white;
 }
-.banner-body p{
-	color:white;
+
+.banner-body p {
+	color: white;
 	font-weight: 500;
 }
-.banner-cancel{
-	position:absolute;
-   top:5px;
-   right:10px;
+
+.banner-cancel {
+	position: absolute;
+	top: 5px;
+	right: 10px;
 }
-.compImg{
+
+.compImg {
 	width: 20%;
-	padding:2px;
+	padding: 2px;
 	margin-bottom: 30px;
 }
-.compH{
-    padding: 15px;
+
+.compH {
+	padding: 15px;
 	margin-bottom: -15px;
 }
-.email-box{
-	width:500px;
-}
-	.footer-logo{
-		
-		margin-top: -30px;
 
-	}
-	.btn-facebook:link, .btn-facebook:visited {
-	  color: #ef6c00;
-	}
-	.btn-facebook:active, .btn-facebook:hover {
-	  background: #F78536;
-	  color: #fff;
-	}
+.email-box {
+	width: 500px;
+}
+
+.footer-logo {
+	margin-top: -30px;
+}
+
+.btn-facebook:link,
+.btn-facebook:visited {
+	color: #ef6c00;
+}
+
+.btn-facebook:active,
+.btn-facebook:hover {
+	background: #F78536;
+	color: #fff;
+}
