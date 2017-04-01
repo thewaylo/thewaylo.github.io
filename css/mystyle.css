@@ -1,5 +1,7 @@
 .btncontainer {
-	margin-top: 1%;
+	margin-top: 90%;
+	margin-left: 2%;
+	height: 400px;
 }
 
 .btn-facebook {
@@ -15,6 +17,24 @@
 	text-align: center;
 }
 
+.screen-content {
+	color: black;
+	margin-top: 10%;
+	max-height: max-content;
+}
+
+.addpad {
+	margin-top: 1%;
+}
+
+.addpad-first {
+	margin-top: 5%;
+}
+
+.addpad-end {
+	margin-top: 10%;
+}
+
 @media screen and (max-width: 736px) {
 	.fh5co-cover .desc .desc2 .headCont {
 		display: block;
@@ -26,6 +46,53 @@
 	.h_n {
 		text-align: center;
 		font-size: 15px;
+	}
+	.waylo-logo {
+		font-size: 20px;
+	}
+	.device-container {
+		max-width: max-content;
+		max-height: calc(0vh);
+		margin: 100px auto 0
+	}
+	.addpad {
+		margin-top: 0%;
+	}
+	.addpad-first {
+		margin-top: 0%;
+	}
+	.addpad-end {
+		margin-top: 0%;
+	}
+	.screen-content {
+		margin-top: 0%;
+	}
+	.addpad {
+		margin-top: 0%;
+	}
+	.addpad-first {
+		margin-top: 0%;
+	}
+	.addpad-end {
+		margin-top: 0%;
+	}
+	.screen-content {
+		margin-top: 0%;
+	}
+	.btncontainer {
+		margin-top: 10%
+	}
+	.btn-facebook {
+		font-size: 14px;
+	}
+	div.cs-select span {
+		padding: 7px 10px;
+	}
+	.mylabel {
+		font-size: 12px;
+	}
+	.myhead {
+		font-size: 16px;
 	}
 }
 
@@ -113,4 +180,53 @@
 .btn-facebook:hover {
 	background: #F78536;
 	color: #fff;
+}
+
+.btn-facebook {
+	margin-top: 5%;
+}
+
+.device-container {
+	max-width: 350px;
+	margin: 0 auto 100px
+}
+
+.device-container .screen img {
+	border-radius: 3px
+}
+
+.screen {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.screen-content input[type="text"] {
+	background: rgba(255, 255, 255, 0.8);
+	border: none;
+	box-shadow: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px 10px !important;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	border-radius: 10px;
+	color: #F78536 !important;
+}
+
+.screen-content myselect {
+	background: rgba(255, 255, 255, 0.8);
+	border: none;
+	box-shadow: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px 10px !important;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	border-radius: 10px;
+	color: #F78536 !important
+}
+
+.placedevice {
+	margin-top: -15%;
 }

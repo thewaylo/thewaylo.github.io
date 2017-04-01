@@ -29,7 +29,7 @@ body {
 }
 
 .h_n {
-  margin-top: -12em;
+  margin-top: -10em;
   margin-left: -45px;
 }
 
@@ -793,15 +793,17 @@ div.cs-select span {
 
 .cs-skin-border span {
   font-size: 13px;
+  border-radius: 10px;
 }
 
 .cs-skin-border span:hover {
-  background: rgba(0, 0, 0, 0.05) !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 10px;
 }
 
 .cs-skin-border>span {
   border: transparent;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.8);
   color: #F78536;
 }
 
