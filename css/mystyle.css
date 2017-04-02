@@ -145,6 +145,15 @@
 	}
 }
 
+
+/*672 x 480 px */
+
+@media screen and (height:672px) and (width:480px) {
+	.sponsers {
+		margin-top: 35%;
+	}
+}
+
 @media screen and (height:667px)and (width:375px) {
 	/**Iphone 6*/
 	.sponsers {
