@@ -269,15 +269,16 @@ figure {
 }
 
 .fh5co-cover .desc h2 {
-  color: #fff;
+  color: #ef6c00;
   font-size: 60px;
   margin-bottom: 10px;
   font-weight: 400 !important;
+  font-family: Cabin;
 }
 
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
