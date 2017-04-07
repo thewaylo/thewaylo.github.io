@@ -4,6 +4,14 @@
 	height: 400px;
 }
 
+.pad5 {
+	padding: 5% !important;
+}
+
+.pad3 {
+	padding: 3% !important;
+}
+
 .myhead {
 	color: #ef6c00;
 }
@@ -37,6 +45,10 @@
 
 .addpad-end {
 	margin-top: 10%;
+}
+
+.partner {
+	margin-top: 5%;
 }
 
 .screen-content input[type="text"] {
@@ -180,13 +192,13 @@
 		margin-top: 35%;
 	}
 	.partner {
-		margin-top: 20%;
+		margin-top: 75%;
 	}
 }
 
 @media screen and (max-width:375px) {
 	.partner {
-		margin-top: 10%;
+		margin-top: 63%;
 	}
 }
 
@@ -195,7 +207,7 @@
 		margin-top: 1%;
 	}
 	.partner {
-		margin-top: 20%;
+		margin-top: 78%;
 	}
 }
 
@@ -275,7 +287,7 @@
 }
 
 .compH {
-	padding: 15px;
+	padding: 16px;
 	margin-bottom: -15px;
 }
 
