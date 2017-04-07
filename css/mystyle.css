@@ -123,9 +123,6 @@
 	.mylabel {
 		font-size: 12px;
 	}
-	.sponsers {
-		margin-top: 10%;
-	}
 	.screen-content input[type="text"] {
 		background: rgba(255, 255, 255, 0.8);
 		font-size: 12px;
@@ -145,15 +142,6 @@
 	}
 }
 
-
-/*672 x 480 px */
-
-@media screen and (height:672px) and (width:480px) {
-	.sponsers {
-		margin-top: 35%;
-	}
-}
-
 @media screen and (height:667px)and (width:375px) {
 	/**Iphone 6*/
 	.sponsers {
@@ -164,6 +152,9 @@
 	}
 	.btncontainer {
 		margin-top: 16%
+	}
+	.partner {
+		margin-top: 10%;
 	}
 }
 
@@ -177,6 +168,34 @@
 	}
 	.btncontainer {
 		margin-top: 15%
+	}
+	.partner {
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width:420px) {
+	/*Nexus*/
+	.sponsers {
+		margin-top: 35%;
+	}
+	.partner {
+		margin-top: 20%;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.partner {
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.sponsers {
+		margin-top: 1%;
+	}
+	.partner {
+		margin-top: 20%;
 	}
 }
 
@@ -212,9 +231,6 @@
 	}
 	.btn-facebook {
 		font-size: 14px;
-	}
-	.sponsers {
-		margin-top: 28%;
 	}
 }
 
