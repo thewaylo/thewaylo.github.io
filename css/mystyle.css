@@ -62,10 +62,16 @@ body {
 	text-align: center;
 }
 
+.screen {
+	background-color: rgba(255, 255, 255, 0.8);
+	display: none;
+}
+
 .screen-content {
 	color: black;
 	margin-top: 10%;
 	max-height: calc(0vh);
+	display: none;
 }
 
 .addpad {
@@ -77,8 +83,6 @@ body {
 	margin-top: 3%;
 	vertical-align: middle;
 }
-
-.addpad-end {}
 
 .partner {
 	margin-top: 5%;
@@ -144,8 +148,12 @@ body {
 	.addpad-end {
 		margin-top: 1%;
 	}
+	.screen {
+		display: inherit;
+	}
 	.screen-content {
 		margin-top: 0%;
+		display: inherit;
 	}
 	.addpad {
 		margin-top: 2%;
@@ -431,8 +439,4 @@ body {
 
 .device-container .screen img {
 	border-radius: 3px
-}
-
-.screen {
-	background-color: rgba(255, 255, 255, 0.8);
 }

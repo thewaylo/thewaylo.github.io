@@ -280,7 +280,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-sm-6 animate-box infobox-pad" data-animate-effect="fadeIn">
+				<div class="col-md-4 col-sm-6 animate-box infobox-pad" data-animate-effect="fadeUp">
 					<center>
 
 						<i class="fa fa-4x fa-usd wow bounceIn " style="color: #ef6c00" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s;"></i>
@@ -821,6 +821,9 @@
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+	</script>
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
@@ -1050,6 +1053,17 @@
 
 		if (isMobile) {
 			$('div').removeClass('mt');
+
+		} else {
+
+			$(".screen").fadeIn("slow", function () {
+				$(this).show();
+
+				$(".screen-content").fadeIn(200, function () {
+					$(this).show();
+				});
+			});
+
 		}
 
 		// 	if(isMobile)
