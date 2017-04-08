@@ -923,7 +923,14 @@
 				var apikey = "eeac5f20-535d-48a5-8a5a-ba2d348e2ae7";
 				var d1 = new Date(checkin);
 				var d2 = new Date(checkout);
-				console.log(checkin + "      " + checkout);
+
+				if (!validateInput(loc_name)) {
+					loc_name = "San Francisco, CA, United States";
+					lat = 37.7749295;
+					lng = -122.4194155;
+					console.log(lat + " " + lng);
+
+				}
 				if (validateInput(lat) && validateInput(checkin) && validateInput(checkout) && validateInput(adultno) &&
 					validateInput(childno)) {
 					if (d1 < d2) {

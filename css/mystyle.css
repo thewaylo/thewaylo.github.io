@@ -60,20 +60,20 @@
 .screen-content {
 	color: black;
 	margin-top: 10%;
-	max-height: max-content;
+	max-height: calc(0vh);
 }
 
 .addpad {
 	margin-top: 1%;
+	vertical-align: middle;
 }
 
 .addpad-first {
 	margin-top: 3%;
+	vertical-align: middle;
 }
 
-.addpad-end {
-	margin-top: 10%;
-}
+.addpad-end {}
 
 .partner {
 	margin-top: 5%;
@@ -131,25 +131,25 @@
 		margin: 100px auto 0
 	}
 	.addpad {
-		margin-top: 0%;
+		margin-top: 1%;
 	}
 	.addpad-first {
 		margin-top: 5%;
 	}
 	.addpad-end {
-		margin-top: 0%;
+		margin-top: 1%;
 	}
 	.screen-content {
 		margin-top: 0%;
 	}
 	.addpad {
-		margin-top: 0%;
+		margin-top: 2%;
 	}
 	.addpad-end {
 		margin-top: 0%;
 	}
 	.screen-content {
-		margin-top: 0%;
+		margin-top: 8%;
 	}
 	.btncontainer {
 		margin-top: 10%
@@ -184,6 +184,9 @@
 
 @media screen and (height:667px)and (width:375px) {
 	/**Iphone 6*/
+	.screen-content {
+		margin-top: 5% !important;
+	}
 	.btnfb {
 		width: 370px;
 		font-size: 24px;
@@ -203,7 +206,6 @@
 }
 
 @media screen and (height:640px)and (width:360px) {
-	/**Iphone 6*/
 	.sponsers {
 		margin-top: 28%;
 	}
@@ -220,6 +222,12 @@
 
 @media screen and (max-width:420px) {
 	/*Nexus*/
+	.screen-content {
+		margin-top: 10%;
+	}
+	.waylo-logo {
+		font-size: 50px;
+	}
 	#drawer {
 		margin-top: 65%;
 		margin-bottom: -25%;
@@ -251,9 +259,26 @@
 
 @media screen and (max-width:320px) {
 	/*iphone 5**/
+	.screen-content input[type="text"] {
+		font-size: 14px;
+		padding: 2px 10px!important;
+	}
+	.screen-content {
+		margin-top: 0%;
+	}
 	#drawer {
 		margin-top: 30%;
 		margin-bottom: 5%;
+	}
+	.waylo-logo {
+		font-size: 28px;
+	}
+	.compH {
+		padding: 24px !important;
+		]
+	}
+	.addpad {
+		margin-top: 0%;
 	}
 	.sponsers {
 		margin-top: 1%;
