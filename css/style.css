@@ -2265,22 +2265,22 @@ div.cs-select span {
 }
 
 .row-bottom-padded-md {
-  padding-bottom: 4em;
+  padding-bottom: 0em;
 }
 
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
-    padding-bottom: 2em;
+    padding-bottom: 0em;
   }
 }
 
 .row-top-padded-md {
-  padding-top: 4em;
+  padding-top: 0em;
 }
 
 @media screen and (max-width: 768px) {
   .row-top-padded-md {
-    padding-top: 2em;
+    padding-top: 0em;
   }
 }
 
