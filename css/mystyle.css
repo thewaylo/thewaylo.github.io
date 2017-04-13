@@ -2,6 +2,15 @@ body {
 	background-color: #f5f5f5 !important;
 }
 
+.navbar_text {
+	font-size: 18px;
+	color: #ef6c00 !important;
+}
+
+.navbar_text span {
+	color: #777;
+}
+
 .plan-box-parent {
 	width: 28%;
 }

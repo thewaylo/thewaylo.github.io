@@ -81,15 +81,20 @@ a:hover {
 p,
 ul,
 ol {
-  margin-bottom: 1.5em;
   font-size: 16px;
   color: black;
   font-family: 'Cabin', sans-serif;
 }
 
+h3 {
+  color: #5a5a5a;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -653,8 +658,8 @@ figure {
 
 .waylo-logo {
   font-family: 'Pacifico', cursive;
-  font-size: 51px;
-  color: #ef6c00;
+  font-size: 28px;
+  color: #ef6c00 !important;
 }
 
 @media screen and (max-width: 480px) {

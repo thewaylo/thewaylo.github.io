@@ -105,6 +105,27 @@
 </head>
 
 <body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+				<a class="navbar-brand waylo-logo" style="font-size: 30px;" href="#">Waylo</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#save money" class="navbar_text nav_option rangeslider_option"><span class="glyphicon glyphicon-home"></span> About</a></li>
+					<li><a href="http://blog.thewaylo.com" target="_blank" class="navbar_text"><span class="glyphicon glyphicon-user"></span> Blog</a></li>
+					<li><a href="#footer" class="navbar_text nav_option footer_option"><span class="glyphicon glyphicon-phone"></span> Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
 
 
 	<!-- End of Google Analytics Content Experiment code -->
@@ -349,10 +370,10 @@
 				</div>
 			</div>
 
-			<div class="row  ranger">
+			<div id="waylo_range_slider" class="row  ranger">
 				<!-- <h3 class="text-center">Check your savings</h3></br> -->
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box" style="padding-top: 30px">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box" style="padding-top: 30px;margin-top: 2%;">
 						<h3>How much can you save?</h3>
 						<p> Adjust slider to hotel room rates </p>
 					</div>
@@ -454,7 +475,7 @@
 -->
 	</div>
 	<!-- fh5co-blog-section -->
-	<div id="fh5co-testimonial" style="background-image: url(images/wall-bg2.jpg);">
+	<div id="fh5co-testimonial" style="background-image: url(images/wall-bg22.jpg);">
 
 
 		<div class="container">
@@ -529,10 +550,10 @@
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center">
 
-						<div class="newFooter">
+						<div class="newFooter" style="margin-top:2%;">
 							<p>&copy; 2017 RoamAmore Inc. All Rights Reserved.</p>
 							<p>Made with love in Berkeley, CA</p>
-							<ul class="list-inline" style="margin-top:5px;">
+							<ul class="list-inline" style="margin-top:2px;">
 								<li>
 									<a href="#"><i class="fa fa-phone" aria-hidden="true"></i> +1 (801) 747-9713</a>
 								</li>
@@ -540,7 +561,7 @@
 									<a href="mailto:info@thewaylo.com"><i class="fa fa-envelope" aria-hidden="true"></i> info [at] thewaylo.com</a>
 								</li>
 							</ul>
-							<ul class="list-inline" style="margin-top:10px;">
+							<ul class="list-inline" style="margin-top:5px;">
 								<li>
 									<a class="portfolio-link" href="#" data-toggle="modal" data-target="#privacymodal">Privacy</a>
 									<!--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#privacymodal">Open Modal</button>-->
@@ -930,12 +951,31 @@
 		$(document).ready(function () {
 
 			$('input[type="range"]').val(120).change();
+			$("nav").find("li").on("click", "a", function () {
+				$('.navbar-collapse.in').collapse('hide');
+			});
 			$('#drawer').click(function () {
 				$('#demo').collapse();
 				$('html, body').animate({
 					scrollTop: $("#demo").offset().top
 				}, 700);
 
+
+			});
+			$('.rangeslider_option').click(function () {
+				$('#demo').collapse();
+
+				$('html, body').animate({
+					scrollTop: $("#waylo_range_slider").offset().top
+				}, 700);
+
+			});
+			$('.footer_option').click(function () {
+				$('#demo').collapse();
+
+				$('html, body').animate({
+					scrollTop: $("#footer").offset().top
+				}, 700);
 
 			});
 			var lat = "";
