@@ -1,118 +1,507 @@
-body{background-color:#f5f5f5 !important;}
-.navbar_text{font-size:18px;color:#ef6c00 !important;}
-.navbar_text span{color:#777;}
-.plan-box-parent{width:28%;}
-.plan_box_space{width:5%;margin-bottom:5%;}
-.plan_box_space2{width:3.5%;}
-.plan-box{box-shadow:-5px 4px 11px #ef6c00;height:500px;padding:20px;border-radius:70px;}
-.price_value{display:-webkit-inline-box;}
-.price{font-size:65px;margin-top:-10%;}
-.month{margin-top:25%;font-size:20px;}
-.plan{margin-bottom:2%;}
-.btncontainer{margin-top:90%;margin-left:2%;height:400px;}
-.pad5{padding:5% !important;}
-.pad3{padding:3% !important;}
-.martop5{margin-top:5%;}
-.placedevice{margin-top:-15%;}
-.btnfb{border-radius:20px;background-color:#1565c0 !important;height:80px;width:420px;font-size:25px;padding:11px !important;margin-top:5%;}
-.btnfb_image{height:60px;width:60px;}
-#drawer{margin-bottom:5%;border-radius:20px;font-size:20px;}
-.myhead{color:#ef6c00;}
-.btn-facebook{font-family:inherit;padding:10px;font-family:'Open Sans', Arial, Helvetica, sans-serif;font-weight:bold;background:#FFF;border-radius:20px;color:#ef6c00;border-width:1px;border-style:solid;text-align:center;}
-.screen{background-color:rgba(255, 255, 255, 0.8);display:none;}
-.screen-content{color:black;margin-top:10%;max-height:calc(0vh);display:none;}
-.addpad{margin-top:1%;vertical-align:middle;}
-.addpad-first{margin-top:3%;vertical-align:middle;}
-.partner{margin-top:5%;}
-.screen-content input[type="text"]{background:rgba(255, 255, 255, 0.8);border:none;box-shadow:none;font-weight:bold;font-size:14px;padding:5px 10px !important;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;border-radius:10px;color:#F78536 !important;}
-.screen-content myselect{background:rgba(255, 255, 255, 0.8);border:none;box-shadow:none;font-weight:bold;font-size:14px;padding:5px 10px !important;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;border-radius:10px;color:#F78536 !important}
-@media screen and (max-width:736px){.resizeinput{height:34px;}
-.fh5co-cover .desc .desc2 .headCont{display:block;margin-top:2px;margin-left:40px;margin-bottom:110px;margin-right:5px;}
-.h_n{text-align:center;font-size:15px;}
-.waylo-logo{font-size:25px;}
-.device-container{max-width:max-content;max-height:calc(0vh);margin:100px auto 0}
-.addpad{margin-top:1%;}
-.addpad-first{margin-top:5%;}
-.addpad-end{margin-top:1%;}
-.screen{display:inherit;}
-.screen-content{margin-top:0%;display:inherit;}
-.addpad{margin-top:2%;}
-.addpad-end{margin-top:0%;}
-.screen-content{margin-top:8%;}
-.btncontainer{margin-top:10%}
-.btn-facebook{font-size:14px;}
-div.cs-select span{padding:7px 10px;}
-.mylabel{font-size:12px;}
-.screen-content input[type="text"]{background:rgba(255, 255, 255, 0.8);font-size:12px;padding:3px 10px !important;border-radius:10px;color:#F78536 !important;}
-.screen-content myselect{background:rgba(255, 255, 255, 0.8);border:none;box-shadow:none;font-weight:bold;font-size:14px;padding:3px 10px !important;border-radius:10px;color:#F78536 !important}
+body {
+    background-color: #f5f5f5 !important;
 }
-@media screen and (height:667px)and (width:375px){.plan-box-parent{width:100%;}
-.screen-content{margin-top:5% !important;}
-.btnfb{width:370px;font-size:24px;}
-.sponsers{margin-top:30%;}
-.waylo-logo{font-size:40px;}
-.btncontainer{margin-top:16%}
-.partner{margin-top:10%;}
+
+.navbar_text {
+    font-size: 18px;
+    color: #ef6c00 !important;
 }
-@media screen and (height:640px)and (width:360px){.plan-box-parent{width:100%;}
-.sponsers{margin-top:28%;}
-.waylo-logo{font-size:35px;}
-.btncontainer{margin-top:15%}
-.partner{margin-top:10%;}
+
+.navbar_text span {
+    color: #777;
 }
-@media screen and (max-width:420px){.plan-box-parent{width:100%;}
-.screen-content{margin-top:10%;}
-.waylo-logo{font-size:50px;}
-#drawer{margin-top:65%;margin-bottom:-25%;}
-.placedevice{margin-top:-15% !important;}
-.btnfb{width:350px;height:60px;font-size:18px;padding:11px !important;margin-left:1%;}
-.btnfb_image{height:40px;width:40px;}
-.sponsers{margin-top:35%;}
-.partner{margin-top:75%;}
-.placedevice{margin-top:-20%;}
+
+.planbox_container {
+    margin-bottom: 2%;
 }
-@media screen and (max-width:375px){.plan-box-parent{width:100%;}
-.partner{margin-top:63%;}
+
+.plan-box-parent {
+    width: 28%;
 }
-@media screen and (max-width:320px){.plan-box-parent{width:100%;}
-.screen-content input[type="text"]{font-size:14px;padding:2px 10px!important;}
-.screen-content{margin-top:0%;}
-#drawer{margin-top:30%;margin-bottom:5%;}
-.waylo-logo{font-size:28px;}
-.compH{padding:24px !important;}
-.addpad{margin-top:0%;}
-.sponsers{margin-top:1%;}
-.partner{margin-top:78%;}
-.btnfb{width:300px;height:60px;font-size:16px;margin-top:2%;}
-.placedevice{margin-top:-20% !important;}
-.btnfb_image{height:40px;width:40px;}
+
+.plan_box_space {
+    width: 5%;
+    margin-bottom: 5%;
 }
-.overlay{overflow:hidden;background-image:url(images/bg_demo3.jpg);filter:blur(15px);background-position:-100px -20px;}
-.infobox-pad{margin-top:1%;}
-@media screen and (max-width:1024px){.placedevice{margin-top:0%;}
+
+.plan_box_space2 {
+    width: 3.5%;
 }
-@media screen and (min-device-width:736px) and (max-device-width:768px){.placedevice{margin-top:0%;}
-.plan-box-parent{width:100%;}
-.fh5co-cover .desc .desc2 .headCont{display:block;margin-top:90px;margin-left:0px;margin-bottom:110px;margin-right:30px;float:left;}
-.h_n{text-align:center;font-size:20px;}
-.btncontainer{margin-top:100%}
-.btn-facebook{font-size:14px;}
+
+.plan-box {
+    box-shadow: -10px 5px 25px #ef6c00;
+    height: 500px;
+    padding: 20px;
+    border-radius: 70px;
 }
-.banner{background:#c95033;height:225px;display:none;}
-.mobile-banner{background:#c95033;}
-.banner-image{float:left;}
-.banner-info{padding:65px;color:white;}
-.banner-head h3{color:white;}
-.banner-body p{color:white;font-weight:500;}
-.banner-cancel{position:absolute;top:5px;right:10px;}
-.compImg{width:20%;padding:2px;margin-bottom:30px;}
-.compH{padding:16px;margin-bottom:-15px;}
-.email-box{width:500px;}
-.footer-logo{margin-top:-30px;}
+
+.price_value {
+    display: -webkit-inline-box;
+}
+
+.price {
+    font-size: 65px;
+    margin-top: -10%;
+}
+
+.month {
+    margin-top: 25%;
+    font-size: 20px;
+}
+
+.plan {
+    margin-bottom: 2%;
+}
+
+.btncontainer {
+    margin-top: 90%;
+    margin-left: 2%;
+    height: 400px;
+}
+
+.pad5 {
+    padding: 5% !important;
+}
+
+.pad3 {
+    padding: 3% !important;
+}
+
+.martop5 {
+    margin-top: 5%;
+}
+
+.placedevice {
+    margin-top: -15%;
+}
+
+.btnfb {
+    border-radius: 20px;
+    background-color: #1565c0 !important;
+    height: 80px;
+    width: 420px;
+    font-size: 25px;
+    padding: 11px !important;
+    margin-top: 5%;
+}
+
+.btnfb_image {
+    height: 60px;
+    width: 60px;
+}
+
+#drawer {
+    margin-bottom: 5%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.myhead {
+    color: #ef6c00;
+}
+
+.btn-facebook {
+    font-family: inherit;
+    padding: 10px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: #FFF;
+    border-radius: 20px;
+    color: #ef6c00;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
+
+.screen {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+}
+
+.screen-content {
+    color: black;
+    margin-top: 10%;
+    max-height: calc(0vh);
+    display: none;
+}
+
+.addpad {
+    margin-top: 1%;
+    vertical-align: middle;
+}
+
+.addpad-first {
+    margin-top: 3%;
+    vertical-align: middle;
+}
+
+.partner {
+    margin-top: 5%;
+}
+
+.screen-content input[type="text"] {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px !important;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 10px;
+    color: #F78536 !important;
+}
+
+.screen-content myselect {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px !important;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 10px;
+    color: #F78536 !important
+}
+
+@media screen and (max-width:736px) {
+    .planbox_container {
+        margin-bottom: 5%;
+    }
+    .resizeinput {
+        height: 34px;
+    }
+    .fh5co-cover .desc .desc2 .headCont {
+        display: block;
+        margin-top: 2px;
+        margin-left: 40px;
+        margin-bottom: 110px;
+        margin-right: 5px;
+    }
+    .h_n {
+        text-align: center;
+        font-size: 15px;
+    }
+    .waylo-logo {
+        font-size: 25px;
+    }
+    .device-container {
+        max-width: max-content;
+        max-height: calc(0vh);
+        margin: 100px auto 0
+    }
+    .addpad {
+        margin-top: 1%;
+    }
+    .addpad-first {
+        margin-top: 5%;
+    }
+    .addpad-end {
+        margin-top: 1%;
+    }
+    .screen {
+        display: inherit;
+    }
+    .screen-content {
+        margin-top: 0%;
+        display: inherit;
+    }
+    .addpad {
+        margin-top: 2%;
+    }
+    .addpad-end {
+        margin-top: 0%;
+    }
+    .screen-content {
+        margin-top: 8%;
+    }
+    .btncontainer {
+        margin-top: 10%
+    }
+    .btn-facebook {
+        font-size: 14px;
+    }
+    div.cs-select span {
+        padding: 7px 10px;
+    }
+    .mylabel {
+        font-size: 12px;
+    }
+    .screen-content input[type="text"] {
+        background: rgba(255, 255, 255, 0.8);
+        font-size: 12px;
+        padding: 3px 10px !important;
+        border-radius: 10px;
+        color: #F78536 !important;
+    }
+    .screen-content myselect {
+        background: rgba(255, 255, 255, 0.8);
+        border: none;
+        box-shadow: none;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 3px 10px !important;
+        border-radius: 10px;
+        color: #F78536 !important
+    }
+}
+
+@media screen and (height:667px)and (width:375px) {
+    .plan-box-parent {
+        width: 95%;
+    }
+    .screen-content {
+        margin-top: 5% !important;
+    }
+    .btnfb {
+        width: 370px;
+        font-size: 24px;
+    }
+    .sponsers {
+        margin-top: 30%;
+    }
+    .waylo-logo {
+        font-size: 40px;
+    }
+    .btncontainer {
+        margin-top: 16%
+    }
+    .partner {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (height:640px)and (width:360px) {
+    .plan-box-parent {
+        width: 95%;
+    }
+    .sponsers {
+        margin-top: 28%;
+    }
+    .waylo-logo {
+        font-size: 35px;
+    }
+    .btncontainer {
+        margin-top: 15%
+    }
+    .partner {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .plan-box-parent {
+        width: 95%;
+    }
+    .screen-content {
+        margin-top: 10%;
+    }
+    .waylo-logo {
+        font-size: 50px;
+    }
+    #drawer {
+        margin-top: 65%;
+        margin-bottom: -25%;
+    }
+    .placedevice {
+        margin-top: -15% !important;
+    }
+    .btnfb {
+        width: 350px;
+        height: 60px;
+        font-size: 18px;
+        padding: 11px !important;
+        margin-left: 1%;
+    }
+    .btnfb_image {
+        height: 40px;
+        width: 40px;
+    }
+    .sponsers {
+        margin-top: 35%;
+    }
+    .partner {
+        margin-top: 75%;
+    }
+    .placedevice {
+        margin-top: -20%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .plan-box-parent {
+        width: 95%;
+    }
+    .partner {
+        margin-top: 63%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .plan-box-parent {
+        width: 100%;
+    }
+    .screen-content input[type="text"] {
+        font-size: 14px;
+        padding: 2px 10px!important;
+    }
+    .screen-content {
+        margin-top: 0%;
+    }
+    #drawer {
+        margin-top: 30%;
+        margin-bottom: 5%;
+    }
+    .waylo-logo {
+        font-size: 28px;
+    }
+    .compH {
+        padding: 24px !important;
+    }
+    .addpad {
+        margin-top: 0%;
+    }
+    .sponsers {
+        margin-top: 1%;
+    }
+    .partner {
+        margin-top: 78%;
+    }
+    .btnfb {
+        width: 300px;
+        height: 60px;
+        font-size: 16px;
+        margin-top: 2%;
+    }
+    .placedevice {
+        margin-top: -20% !important;
+    }
+    .btnfb_image {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.overlay {
+    overflow: hidden;
+    background-image: url(images/bg_demo3.jpg);
+    filter: blur(15px);
+    background-position: -100px -20px;
+}
+
+.infobox-pad {
+    margin-top: 1%;
+}
+
+@media screen and (max-width:1024px) {
+    .placedevice {
+        margin-top: 0%;
+    }
+}
+
+@media screen and (min-device-width:736px) and (max-device-width:768px) {
+    .placedevice {
+        margin-top: 0%;
+    }
+    .plan-box-parent {
+        width: 95%;
+    }
+    .fh5co-cover .desc .desc2 .headCont {
+        display: block;
+        margin-top: 90px;
+        margin-left: 0px;
+        margin-bottom: 110px;
+        margin-right: 30px;
+        float: left;
+    }
+    .h_n {
+        text-align: center;
+        font-size: 20px;
+    }
+    .btncontainer {
+        margin-top: 100%
+    }
+    .btn-facebook {
+        font-size: 14px;
+    }
+}
+
+.banner {
+    background: #c95033;
+    height: 225px;
+    display: none;
+}
+
+.mobile-banner {
+    background: #c95033;
+}
+
+.banner-image {
+    float: left;
+}
+
+.banner-info {
+    padding: 65px;
+    color: white;
+}
+
+.banner-head h3 {
+    color: white;
+}
+
+.banner-body p {
+    color: white;
+    font-weight: 500;
+}
+
+.banner-cancel {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.compImg {
+    width: 20%;
+    padding: 2px;
+    margin-bottom: 30px;
+}
+
+.compH {
+    padding: 16px;
+    margin-bottom: -15px;
+}
+
+.email-box {
+    width: 500px;
+}
+
+.footer-logo {
+    margin-top: -30px;
+}
+
 .btn-facebook:link,
-.btn-facebook:visited{color:#ef6c00;}
+.btn-facebook:visited {
+    color: #ef6c00;
+}
+
 .btn-facebook:active,
-.btn-facebook:hover{background:#F78536;color:#fff;}
-.btn-facebook{margin-top:5%;}
-.device-container{max-width:350px;margin:0 auto 100px}
-.device-container .screen img{border-radius:3px}
+.btn-facebook:hover {
+    background: #F78536;
+    color: #fff;
+}
+
+.btn-facebook {
+    margin-top: 5%;
+}
+
+.device-container {
+    max-width: 350px;
+    margin: 0 auto 100px
+}
+
+.device-container .screen img {
+    border-radius: 3px
+}
