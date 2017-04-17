@@ -2,20 +2,30 @@
         background-color: #f5f5f5 !important;
     }
 
+    #price_line {
+        width: 150px !important;
+        border-top: 2px solid #F78536 !important;
+    }
+
     .navbar_text {
         font-size: 18px;
         color: #ef6c00 !important;
     }
 
-    .fbBtn{
+    .fbBtn {
         background: #3b5998;
     }
+
     .navbar_text span {
         color: #777;
     }
 
     .planbox_container {
         margin-bottom: 2%;
+    }
+
+    .plan-box-head {
+        margin-top: 5%;
     }
 
     .plan-box-parent {
@@ -26,25 +36,27 @@
         width: 5%;
         margin-bottom: 5%;
     }
-    .btn.btn-outline{
+
+    .btn.btn-outline {
         background: #3b5998;
-        border:none;
+        border: none;
         color: white;
     }
+
     .plan_box_space2 {
         width: 3.5%;
     }
 
     .plan-box {
         box-shadow: -10px 5px 25px #ef6c00;
-        height: 500px;
+        height: 450px;
         padding: 20px;
         border-radius: 70px;
     }
 
     .price_value {
         display: -webkit-inline-box;
-        margin-top:50px;
+        margin-top: 30px;
     }
 
     .price {
@@ -77,7 +89,7 @@
 
     .martop5 {
         margin-top: 5%;
-        margin-left:1px;
+        margin-left: -25px;
     }
 
     .placedevice {
@@ -104,11 +116,12 @@
         border-radius: 20px;
         font-size: 20px;
     }
+
     #drawer1 {
         margin-bottom: 5%;
         border-radius: 20px;
         font-size: 10px;
-        margin-top:-5px;
+        margin-top: -5px;
     }
 
     .myhead {
@@ -126,7 +139,7 @@
         border-width: 1px;
         border-style: solid;
         text-align: center;
-        font-size:20px;
+        font-size: 20px;
     }
 
     .screen {
@@ -396,6 +409,9 @@
     }
 
     @media screen and (max-width:420px) {
+        .martop5 {
+            margin-left: -5px;
+        }
         .plan-box-parent {
             width: 95%;
         }
@@ -435,6 +451,9 @@
     }
 
     @media screen and (max-width:375px) {
+        .martop5 {
+            margin-left: -25px;
+        }
         .plan-box-parent {
             width: 95%;
         }
@@ -444,6 +463,9 @@
     }
 
     @media screen and (max-width:320px) {
+        .martop5 {
+            margin-left: -25px;
+        }
         .plan-box-parent {
             width: 100%;
         }
@@ -545,10 +567,12 @@
     .banner-image {
         float: left;
     }
-    .navbar-default{
+
+    .navbar-default {
         background: #f5f5f5;
-        border:none;
+        border: none;
     }
+
     .banner-info {
         padding: 65px;
         color: white;
@@ -606,20 +630,18 @@
     .device-container {
         max-width: 350px;
         margin: 0 auto 100px;
-        margin-top:30px;
+        margin-top: 30px;
     }
 
     .device-container .screen img {
         border-radius: 3px
     }
 
-    @media screen and (max-width:736px){
-
-        .martop5{
-            padding:10px 10px 50px 10px;
+    @media screen and (max-width:736px) {
+        .martop5 {
+            padding: 10px 10px 50px 10px;
         }
-
-        .sponsers{
-            margin-top:80%;
+        .sponsers {
+            margin-top: 80%;
         }
     }
