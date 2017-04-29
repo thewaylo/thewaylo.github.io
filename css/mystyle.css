@@ -2,6 +2,18 @@
         background-color: #f5f5f5 !important;
     }
 
+    .modal-header {
+        border-bottom: none !important;
+    }
+
+    .modal-title {
+        border-bottom: none!important;
+    }
+
+    .modal-footer {
+        border-top: none!important;
+    }
+
     #price_line {
         width: 150px !important;
         border-top: 2px solid #F78536 !important;
@@ -22,14 +34,16 @@
 
     .planbox_container {
         margin-bottom: 2%;
+        margin-left: 10%;
     }
 
-    .plan-box-head {
+    .plan-box-head h2 {
         margin-top: 5%;
+        font-family: 'Acme', sans-serif;
     }
 
     .plan-box-parent {
-        width: 28%;
+        width: 27%;
     }
 
     .plan_box_space {
@@ -48,10 +62,11 @@
     }
 
     .plan-box {
+        /*box-shadow: 53px 15px 62px black;*/
         box-shadow: -10px 5px 25px #ef6c00;
-        height: 450px;
-        padding: 20px;
-        border-radius: 70px;
+        height: 410px;
+        padding: 25px;
+        border-radius: 50px;
     }
 
     .price_value {
@@ -100,7 +115,7 @@
         border-radius: 20px;
         background-color: #1565c0 !important;
         height: 80px;
-        width: 420px;
+        width: 14em;
         font-size: 25px;
         padding: 11px !important;
         margin-top: 5%;
@@ -436,8 +451,8 @@
             margin-left: 1%;
         }
         .btnfb_image {
-            height: 40px;
-            width: 40px;
+            height: 35px;
+            width: 35px;
         }
         .sponsers {
             margin-top: 35%;
@@ -500,6 +515,14 @@
             height: 60px;
             font-size: 16px;
             margin-top: 2%;
+        }
+        .btnfb_nav {
+            color: blue;
+            background-color: brown!important;
+        }
+        #btnfb_imagenav {
+            height: 10px;
+            width: 10px;
         }
         .placedevice {
             margin-top: -20% !important;

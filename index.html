@@ -90,10 +90,9 @@
 	<link rel="stylesheet" href="css/rangeslider.min.css">
 	<!--RangeSlider-->
 	<link rel="stylesheet" href="css/style.min.css">
-	<link rel="stylesheet" href="css/mystyle.min.css">
+	<link rel="stylesheet" href="css/mystyle.css">
 	<!--Font Awesome-->
 	<link rel="stylesheet" href="css/font-awesome.css">
-
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -101,6 +100,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="css/device-mockups.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 
 </head>
 
@@ -113,13 +113,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-<!-- 				<a class="navbar-brand waylo-logo" style="font-size: 30px;" href="#">Waylo</a> -->
+				<!-- 				<a class="navbar-brand waylo-logo" style="font-size: 30px;" href="#">Waylo</a> -->
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#save money" class="navbar_text nav_option rangeslider_option"><span class="glyphicon glyphicon-home"></span> About</a></li>
-					<li><a href="#footer" class="navbar_text nav_option footer_option"><span class="glyphicon glyphicon-phone"></span> Contact us</a></li>
+
+
+					<li>
+						<a href="http://m.me/theWaylo?ref=landing" style="width:250px;font-size: 14px;background-color: #1565c0;color: white;" target="_blank"
+						    class="btn btn-primary">
+							<img src="./images/messenger_white.svg" style=" height: 25px;width: 25px;" id="btnfb_imagenav" alt="" />&nbsp;Try
+							Waylo for Free
+						</a>
+					</li>
+					<!--
+					<li><a href="#footer" class="navbar_text nav_option footer_option"><span class="glyphicon glyphicon-phone"></span> Contact us</a></li>-->
 				</ul>
 			</div>
 		</div>
@@ -161,17 +170,18 @@
 												Know when to book hotel stays
 											</h3>
 										</center>
-										<div class="embed-responsive embed-responsive-16by9">
+										<div class="embed-responsive embed-responsive-16by9" style="margin-top: 10%;margin-left: 10%;margin-right: 10%">
 											<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ozxyz358Zfw"></iframe>
 										</div>
-										<div class="row martop5">
+										<div class="row martop5" style="margin-bottom: 50px;">
 											<!--<center>
 												<a href="http://m.me/theWaylo?ref=landing" class="btn btn-primary">
 													<img src="./images/messenger.svg" height="25px" width="25px" alt=""> Find deals on Messenger
 											</center>
+										
 											-->
 
-											<a href="http://m.me/theWaylo?ref=landing" target="_blank" class="btn btn-primary btnfb" style="float:left;"><img src="./images/messenger_white.svg" class="btnfb_image" alt="" />&nbsp;Chat With Waylo
+											<a href="http://m.me/theWaylo?ref=landing" target="_blank" class="btn btn-primary btnfb" style="float:left;margin-left: 10%;width: 14em;"><img src="./images/messenger_white.svg" class="btnfb_image" alt="" />&nbsp;Chat With Waylo
 											</a>
 											<center><a style="background-color: #e65100;margin-top:40px;" href="#" demo "" type="button" id="drawer" class="btn btn-primary">Learn more</a></center>
 
@@ -241,7 +251,7 @@
 
 														<div class="btncontainer">
 															<center>
-																<a id="wayloapi" href="#" title="Facebook" class="btn-facebook"><img src="./images/messenger.svg" height="25px" width="25px" alt=""> Find deals on Messenger</a>
+																<a id="wayloapi" href="#" title="Facebook" class="btn-facebook"><img src="./images/messenger.svg" height="25px" width="25px" alt=""> Try Waylo for Free</a>
 															</center>
 														</div>
 
@@ -285,6 +295,7 @@
 					<!-- 							<img class="compImg" src="images/Betalist_white.png" style="height:40px;width: 120px;">	 -->
 					<a href="https://www.producthunt.com/posts/waylo-2"><img class="compImg" src="https://www.instalocate.com/images/media_coverage/logos/producthuntlogo_horizontal.png" style="height:80px;width: 200px;"></a>
 					<img class="compImg" src="https://saverocity.com/wp-content/uploads/2014/07/retina.jpg" style="height:90px;width: 180px;">
+					<img class="compImg" src="http://logonoid.com/images/venturebeat-logo.png" style="height:43px;width: 203px;">
 
 
 				</div>
@@ -414,8 +425,8 @@
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
 						<h4> How does Waylo Work?</h4>
 						<!--<p>Waylo's greatest benefits are hidden in our NLP (Natural Language Processing) and AI (Artificial Intellegence). Our ability to match travellers with their perfect hotel at the lowest price is unmatched. Forty percent of hotel rooms go unsold every year. Waylo gives you access to this inventory at lower than published price. Our price tracking feature now makes uncovering these deals even easier.</p>-->
-						<p>It's simple. Set up a price alert for a hotel or a city. We'll notify you when it's time the right time to book. You can book it with one
-							tap on Waylo or your favorite booking app.</p>
+						<p>It's simple. Set up a price alert for a hotel or a city. We'll notify you when it's time the right time to book. You
+							can book it with one tap on Waylo or your favorite booking app.</p>
 					</div>
 				</div>
 			</div>
@@ -429,8 +440,8 @@
 		<div class="price_head">
 			<center>
 				<h1 class="" style="color:#F78536;">PRICING</h1>
-				<p>No Booking Fees ever</p>
-				<hr id="price_line" class="price_line"></hr>
+				<p style="color:blsck;font-size: x-large;font-family: sans-serif;margin-bottom: -14px;">No Booking Fees ever</p>
+				<hr id="price_line" class="price_line" style="width: 254px!important; margin-bottom :30px;"></hr>
 			</center>
 		</div>
 
@@ -445,8 +456,11 @@
 				<!--		</div>-->
 				<!--	</div>-->
 				<!--</div>-->
-				<div class="plan-box text-center">
-					<h2>FREE</h2>
+				<div class="plan-box text-center" style="box-shadow: -30px -9px 70px black;height: 410px;padding: 25px;border-radius: 50px;">
+					<div class="plan-box-head">
+						<h2>Free </h2>
+					</div>
+
 					<div class="row price_value">
 						<i class="fa fa-2x fa-usd wow bounceIn " style="color: #ef6c00;font-size:35px"></i>
 						<div class="price">0</div>
@@ -466,7 +480,7 @@
 			</div>
 			<div class="col-md-1 plan_box_space"></div>
 			<div class="col-md-3 plan-box-parent">
-				<div class="plan-box text-center">
+				<div class="plan-box text-center" style=" box-shadow: 5px 7px 62px #ef6c00;height: 410px;padding: 25px;border-radius: 50px;">
 					<div class="plan-box-head">
 						<h2>PLUS </h2>
 					</div>
@@ -488,8 +502,11 @@
 			</div>
 			<div class="col-md-1 plan_box_space"></div>
 			<div class="col-md-3 plan-box-parent">
-				<div class="plan-box text-center">
-					<h2>PRO </h2>
+				<div class="plan-box text-center" style="box-shadow: 30px -9px 70px black;height: 410px;padding: 25px;border-radius: 50px;">
+					<div class="plan-box-head">
+						<h2>Pro</h2>
+					</div>
+
 					<div class="row price_value">
 						<i class="fa fa-2x fa-usd wow bounceIn " style="color: #ef6c00;font-size:35px"></i>
 						<div class="price">10</div>
@@ -935,6 +952,25 @@
 		<!-- /.modal-dialog -->
 	</div>
 	<!-- /.modal -->
+	<div class="modal exit-modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+				</div>
+				<div class="modal-body text-center">
+					<p style="font-size: 21px;">Know when to book your next hotel and save upto 75%</p>
+				</div>
+				<div class="modal-footer">
+					<center>
+						<a href="http://m.me/theWaylo?ref=landing" target="_blank" class="btn btn-primary btnfb"><img src="./images/messenger_white.svg" class="btnfb_image" alt="" />&nbsp;Chat With Waylo
+						</a>
+					</center>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	<script src="js/jquery.min.js"></script>
@@ -964,7 +1000,7 @@
 	<script src="js/selectFx.js"></script>
 	<!--RangeSliderjs-->
 	<script src="js/rangeslider.min.js"></script>
-
+	<script type="text/javascript" src="js/jquery.exit-modal.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 
@@ -1000,6 +1036,37 @@
 
 
 			});
+			var timer;
+
+			var exitModalParams = {
+				numberToShown: 2,
+
+			}
+
+			$('.destroy-exit-modal').on("click", function (e) {
+				e.preventDefault();
+				if ($('.exit-modal').data('exit-modal')) {
+					$(".initialized-state").hide();
+					$(".destroyed-state").show();
+				}
+				$('.exit-modal').exitModal('hideModal');
+				$('.exit-modal').exitModal('destroy');
+				$(".initialized").hide();
+			});
+
+
+			$('.exit-modal').exitModal(exitModalParams);
+			if ($('.exit-modal').data('exit-modal')) {
+				$(".destroyed-state").hide();
+				$(".initialized-state").show();
+			}
+
+
+			$('.close-exit-modal').on('click', function (e) {
+				e.preventDefault();
+				$('.exit-modal').exitModal('hideModal');
+			});
+
 			$('.rangeslider_option').click(function () {
 				$('#demo').collapse();
 
@@ -1158,7 +1225,6 @@
 
 
 
-
 				var input = document.getElementById('from-place');
 				var autoCompleteOptions = {
 					types: ['(cities)']
@@ -1250,10 +1316,10 @@
 							// 				'hitType' : 'pageview',
 							// 				'page' : '/contact-us-success' // Virtual page (aka, does not actually exist) that you can now track in GA Goals as a destination page.
 							// 			    });
-						ga('send', {
-							'hitType': 'pageview',
-							'page': '/email-signup' // Virtual page (aka, does not actually exist) that you can now track in GA Goals as a destination page.
-						});
+							ga('send', {
+								'hitType': 'pageview',
+								'page': '/email-signup' // Virtual page (aka, does not actually exist) that you can now track in GA Goals as a destination page.
+							});
 
 						}
 					})
