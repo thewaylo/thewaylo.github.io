@@ -208,7 +208,17 @@
         border-radius: 10px;
         color: #F78536 !important
     }
-
+    @media screen and (max-width:1024px) {
+        .placedevice {
+            margin-top: -20%;
+        }
+        .btnfb{
+            margin-left: 20% !important;
+        }
+        #ipro{
+            margin-left: -4% !important;
+        }
+    }
     @media screen and (max-width:768px) {
         .screen {
             display: inherit;
@@ -222,6 +232,8 @@
         }
         .resizeinput {
             height: 34px;
+            margin-left: 2%;
+
         }
         .fh5co-cover .desc .desc2 .headCont {
             display: block;
@@ -439,16 +451,22 @@
         #drawer {
             margin-top: 65%;
             margin-bottom: -25%;
+            
+        }
+        .btnfb{
+            margin-left: 13% !important;
         }
         .placedevice {
             margin-top: -15% !important;
         }
         .btnfb {
-            width: 350px;
+            width: 283px;
             height: 60px;
             font-size: 18px;
             padding: 11px !important;
-            margin-left: 1%;
+            margin-left: 9% !important;
+            margin-right: 20% !important;
+
         }
         .btnfb_image {
             height: 35px;
@@ -463,6 +481,25 @@
         .placedevice {
             margin-top: -20%;
         }
+    #topbtn{
+        margin-left: 15% !important;
+    }
+    #drawer{
+            margin-left: 5%!important;
+    }
+    }
+
+    @media screen and (width:412px) {
+        .btnfb{
+                margin-left: 13% !important;
+        }
+        #topbtn{
+        margin-left: 13% !important;
+    }
+    #drawer{
+            margin-left: -1%!important;
+    }
+        
     }
 
     @media screen and (max-width:375px) {
@@ -494,6 +531,11 @@
         #drawer {
             margin-top: 30%;
             margin-bottom: 5%;
+            margin-right: -2%;
+            font-size: 16px;
+        }
+        #topbtn{
+            margin-left: 13% !important;
         }
         .waylo-logo {
             font-size: 28px;
@@ -511,10 +553,11 @@
             margin-top: 78%;
         }
         .btnfb {
-            width: 300px;
+            width: 236px;
             height: 60px;
             font-size: 16px;
             margin-top: 2%;
+            margin-left: 10%!important;
         }
         .btnfb_nav {
             color: blue;
@@ -525,7 +568,7 @@
             width: 10px;
         }
         .placedevice {
-            margin-top: -20% !important;
+            margin-top: -45% !important;
         }
         .btnfb_image {
             height: 40px;
@@ -544,15 +587,12 @@
         margin-top: 1%;
     }
 
-    @media screen and (max-width:1024px) {
-        .placedevice {
-            margin-top: 0%;
-        }
-    }
+
 
     @media screen and (min-device-width:736px) and (max-device-width:768px) {
         .placedevice {
-            margin-top: 0%;
+            margin-top: -18%;
+            margin-left: -7%;
         }
         .plan-box-parent {
             width: 95%;
@@ -574,6 +614,9 @@
         }
         .btn-facebook {
             font-size: 14px;
+        }
+        .btnfb{
+            margin-left: 0% !important;
         }
     }
 

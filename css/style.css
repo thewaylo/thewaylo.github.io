@@ -285,6 +285,12 @@ figure {
   font-family: Cabin;
 }
 
+
+@media screen and (max-width: 1024px) {
+  .fh5co-cover .desc h2 {
+    font-size: 45px;
+  }
+}
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc h2 {
     font-size: 30px;
