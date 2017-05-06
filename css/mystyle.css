@@ -208,17 +208,19 @@
         border-radius: 10px;
         color: #F78536 !important
     }
+
     @media screen and (max-width:1024px) {
         .placedevice {
             margin-top: -20%;
         }
-        .btnfb{
+        .btnfb {
             margin-left: 20% !important;
         }
-        #ipro{
-            margin-left: -4% !important;
+        #ipro {
+            margin-left: 0% !important;
         }
     }
+
     @media screen and (max-width:768px) {
         .screen {
             display: inherit;
@@ -233,7 +235,6 @@
         .resizeinput {
             height: 34px;
             margin-left: 2%;
-
         }
         .fh5co-cover .desc .desc2 .headCont {
             display: block;
@@ -451,9 +452,8 @@
         #drawer {
             margin-top: 65%;
             margin-bottom: -25%;
-            
         }
-        .btnfb{
+        .btnfb {
             margin-left: 13% !important;
         }
         .placedevice {
@@ -466,7 +466,6 @@
             padding: 11px !important;
             margin-left: 9% !important;
             margin-right: 20% !important;
-
         }
         .btnfb_image {
             height: 35px;
@@ -481,25 +480,27 @@
         .placedevice {
             margin-top: -20%;
         }
-    #topbtn{
-        margin-left: 15% !important;
-    }
-    #drawer{
+        #topbtn {
+            margin-left: 15% !important;
+        }
+        #drawer {
             margin-left: 5%!important;
-    }
+        }
     }
 
     @media screen and (width:412px) {
-        .btnfb{
-                margin-left: 13% !important;
+        .btnfb {
+            margin-left: 13% !important;
         }
-        #topbtn{
-        margin-left: 13% !important;
-    }
-    #drawer{
+        #ipro {
+            margin-left: 14% !important;
+        }
+        #topbtn {
+            margin-left: 13% !important;
+        }
+        #drawer {
             margin-left: -1%!important;
-    }
-        
+        }
     }
 
     @media screen and (max-width:375px) {
@@ -512,9 +513,15 @@
         .partner {
             margin-top: 63%;
         }
+        #ipro {
+            margin-left: 10% !important;
+        }
     }
 
     @media screen and (max-width:320px) {
+        #ipro {
+            margin-left: 10% !important;
+        }
         .martop5 {
             margin-left: -25px;
         }
@@ -534,7 +541,7 @@
             margin-right: -2%;
             font-size: 16px;
         }
-        #topbtn{
+        #topbtn {
             margin-left: 13% !important;
         }
         .waylo-logo {
@@ -587,8 +594,6 @@
         margin-top: 1%;
     }
 
-
-
     @media screen and (min-device-width:736px) and (max-device-width:768px) {
         .placedevice {
             margin-top: -18%;
@@ -615,7 +620,7 @@
         .btn-facebook {
             font-size: 14px;
         }
-        .btnfb{
+        .btnfb {
             margin-left: 0% !important;
         }
     }
